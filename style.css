@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url(https://t2.tudocdn.net/397882?w=1920);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  font-size: 3vh;
+  color: red;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav, ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 30vw;
+}
+
+li {
+  cursor: pointer;
+}
+
+main {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 3vw;
+  color: white;
+  height: 40vh;
+  font-size: 1vw;
+}
+
+p {
+  width: 25vw;
+}
+
+a {
+  background-color: red;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  width: 8vw;
+  height: 30px;
+  border-radius: 20px;
+}/*# sourceMappingURL=style.css.map */
